@@ -32,7 +32,7 @@ jobs:
             captain-definition
           outPath: deploy.tar
 
-      - uses: premoweb/deploy-to-caprover@v1.0.2
+      - uses: caprover/deploy-from-github@v1.0.2
         with:
           server: '${{ secrets.CAPROVER_SERVER }}'
           app: '${{ secrets.APP_NAME }}'

@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "foundation-sites": "^6.7.5",
+    "jquery": "^3.6.0",
+    "motion-ui": "^2.0.4",
+    "recaptcha-v3": "^1.10.0",
+    "sass": "^1.53.0",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.1",
+    "vue-tsc": "^0.38.8"
+  }
+}
